@@ -69,11 +69,13 @@ public static class Program
 
     }
 
-    //nie rozumiem tej funkcji do konca musze sie dopytac w przerwie wykladu
+    
     private static void ChangePersonName(Person person)
     {
         person.Name = "daniel medżikul";
     }
+
+    //nie rozumiem tej funkcji do konca musze sie dopytac w przerwie wykladu
     [MethodImpl(MethodImplOptions.NoInlining)]
     private static void PrintCurrentMethodName()
     {
