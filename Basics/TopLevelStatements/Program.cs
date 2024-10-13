@@ -1,11 +1,10 @@
 ﻿using System;
-
+//top level statements
 Console.WriteLine("Hello, World!");
-
 string name = "Alice";
-Console.WriteLine($"Hello, {name}!");                                                                                                                       
-
-for (int i = 0; i < 5; i++)
+string surname = "Smith";
+for(int i=0; i<5; ++i)
 {
-    Console.WriteLine($"Count: {i}");
+    Console.WriteLine($"Hello, {name} {surname} [{i}]");
+
 }
